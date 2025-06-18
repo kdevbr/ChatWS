@@ -10,9 +10,9 @@ $options = array(
 );
 
 $pusher = new Pusher\Pusher(
-    '44b4d3f9ece01dfa8fb6',
-    '1f3618851d79f86007ee',
-    '1952164',
+    'pusherKey',
+    'pusherKey',
+    'pusherKey',
     $options
 );
 if($_POST['username'] != "null"){
